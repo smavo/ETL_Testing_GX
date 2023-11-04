@@ -10,3 +10,4 @@ great_expectations suite new
 
 great_expectations suite edit Pruebas_ETL_Testing_IBK.json
 
+great_expectations checkpoint new data_2_etl
