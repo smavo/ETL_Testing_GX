@@ -37,6 +37,88 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": 2818,
+        "min_value": 2818
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": 972218247170836285,
+        "min_value": 972218247170836285
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": 2.973884339178201e+17,
+        "min_value": 2.973884339178201e+17
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": 42427608.5,
+        "min_value": 42427608.5
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "allow_relative_error": "lower",
+        "column": "id",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              2090727,
+              2090727
+            ],
+            [
+              18514561,
+              18514561
+            ],
+            [
+              42424116,
+              42424116
+            ],
+            [
+              722331476879151377,
+              722331476879151377
+            ],
+            [
+              934631997607653730,
+              934631997607653730
+            ]
+          ]
+        }
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "id"
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
       "kwargs": {
         "column": "id",
@@ -80,6 +162,13 @@
           "IntegerType",
           "LongType"
         ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "name"
       },
       "meta": {}
     },
@@ -2202,6 +2291,18 @@
   ],
   "ge_cloud_id": null,
   "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "listings.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "my_datasource_ibk_v1.0",
+          "limit": 1000
+        },
+        "citation_date": "2023-11-04T00:36:39.409782Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
     "great_expectations_version": "0.15.3"
   }
 }

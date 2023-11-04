@@ -8,5 +8,5 @@ great_expectations datasource new
 # Configurar el archivo great_expectations.yml
 great_expectations suite new
 
-great_expectations suite edit Pruebas ETL Testing IBK
+great_expectations suite edit Pruebas_ETL_Testing_IBK.json
 
